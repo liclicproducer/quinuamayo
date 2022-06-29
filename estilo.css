@@ -1,0 +1,318 @@
+/* PARA todos*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgba(128, 128, 128, 0.21);
+    padding: 3px;
+}
+
+.arriba {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    font-family: flood-std, sans-serif;
+}
+
+.adobe {
+    text-align: center;
+    margin: auto;
+    font-family: flood-std, sans-serif;
+    z-index: 5;
+}
+
+h1 {
+    font-family: flood-std, sans-serif;
+}
+
+.imagen_texto {
+    border-radius: 3px;
+}
+
+.imagen_texto:hover {
+    transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    box-shadow: rgba(255, 255, 255, 0.4) -5px 5px;
+}
+
+.compartir:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+.whats {
+    color: white;
+}
+
+.face {
+    color: white;
+}
+
+.whats:hover {
+    color: rgb(63, 205, 50);
+}
+
+.face:hover {
+    color: rgb(84, 121, 224);
+}
+
+
+/* footer*/
+
+.fot-f:hover {
+    transform: scale(1.1);
+}
+
+
+/* PARA PAGINA INCIO*/
+
+.fondo {
+    background-image: url('fondo.png');
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.card-body {
+    color: white;
+}
+
+.poema2 {
+    font-family: "Segoe UI", sans-serif;
+    color: #b6b2b2 !important;
+}
+
+.vamo {
+    background: rgba(26, 26, 26, 0.7) !important;
+    padding: 3px;
+    transition: all .2s;
+    margin: 0vh auto;
+}
+
+.contener1 {
+    align-items: center;
+    display: flex;
+}
+
+.vamo:hover {
+    transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    box-shadow: rgba(255, 255, 255, 0.4) -5px 5px, rgba(255, 255, 255, 0.3) -10px 10px, rgba(255, 254, 255, 0.2) -15px 15px, rgba(255, 254, 255, 0.1) -20px 20px, rgba(252, 252, 252, 0.05) -25px 25px;
+}
+
+.vamo:hover .ca {
+    left: 5%;
+    height: 100%;
+    width: 100%;
+}
+
+.cas {
+    position: absolute;
+    transition: all .6s;
+}
+
+.vamo:hover .cas {
+    transform: scale(1.4);
+    bottom: 15%;
+}
+
+.vamohcomini {
+    background: rgba(44, 44, 44, 0.7) !important;
+    border-radius: 2vh;
+}
+
+
+/* CARDS HISTORIAS*/
+
+.vamoh {
+    position: relative;
+    background: rgba(1, 10, 1, 0.8) !important;
+    transition: all .2s;
+    margin: 0vh auto;
+}
+
+.vamoh:hover {
+    transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    box-shadow: rgb(136, 136, 136) 0px 0px 0px 3px, rgb(100, 99, 99) 0px 0px 0px 6px, rgb(68, 68, 68) 0px 0px 0px 9px, rgb(56, 56, 56) 0px 0px 0px 12px, rgb(5, 5, 5) 0px 0px 0px 15px;
+}
+
+.cah {
+    position: absolute;
+    bottom: 0;
+    height: 90%;
+    width: 90%;
+    transition: all .3s;
+}
+
+.vamoh:hover .cah {
+    height: 100%;
+    width: 100%;
+    opacity: 5;
+}
+
+
+/* CARDS FIESTAS*/
+
+.vamof {
+    background: rgba(26, 26, 26, 0.7) !important;
+    padding: 3px;
+    margin: 0vh auto;
+}
+
+
+/* CARDS INICIO*/
+
+
+/* PARA CARD INICIO*/
+
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+.boton-inicio {
+    margin-top: 2vh;
+    background-color: white !important;
+    color: black;
+    font-weight: bold !important;
+}
+
+.boton-inicio:hover {
+    background: black !important;
+    color: white !important;
+    border: solid 1px rgb(102, 100, 100);
+    box-shadow: rgba(255, 255, 255, 0.24)0px 8px 8px;
+}
+
+.nav-link:hover {
+    transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    z-index: 2;
+}
+
+.carrusel {
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.flecha:hover {
+    transform: scale(1.2);
+    -ms-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    z-index: 2;
+}
+
+.divicion {
+    height: 3rem;
+    background-color: rgba(236, 230, 230, 0.1);
+    border: solid rgba(88, 87, 87, 0.15);
+    border-width: 1px 0;
+}
+
+
+/* lista de cards INCIO*/
+
+.lista-inicio {
+    padding: 0vh;
+    margin: 1vh;
+    color: #b6b2b2 !important;
+}
+
+.lista-inicio1 {
+    text-decoration: none;
+    color: #c3c7c7;
+    padding: 2px;
+}
+
+.lista-inicio1:hover {
+    color: white;
+    border: solid 1px rgb(87, 85, 85);
+}
+
+
+/* PARA PAGINA HISTORIAS*/
+
+.cont-liclic {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 3px;
+    box-shadow: rgb(68, 68, 68) 0px 0px 0px 9px, rgb(56, 56, 56) 0px 0px 0px 12px, rgb(5, 5, 5) 0px 0px 0px 15px;
+    color: rgb(198, 202, 202) !important;
+}
+
+.cont-inicio {
+    margin-top: 2%;
+    border-radius: 3px;
+    background: rgba(34, 39, 34, 0.4);
+    color: white;
+    box-shadow: rgb(136, 136, 136) 0px 0px 0px 3px, rgb(100, 99, 99) 0px 0px 0px 6px, rgb(68, 68, 68) 0px 0px 0px 9px, rgb(56, 56, 56) 0px 0px 0px 12px, rgb(5, 5, 5) 0px 0px 0px 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+.videos {
+    width: 100%;
+    max-width: 700px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.ver-video {
+    text-align: center;
+    color: rgb(207, 207, 207);
+}
+
+.descripcion {
+    text-align: center;
+    font-style: oblique;
+    color: rgb(103, 105, 105);
+}
+
+
+/* FIESTAS*/
+
+
+/* SITIOS*/
+
+.textsit {
+    color: rgb(198, 202, 202) !important;
+}
+
+.cometariosface {
+    background: rgba(252, 252, 252, .8);
+}
+
+.iconovar {
+    width: 5.2vh;
+    height: 5.2vh;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    border: solid 2px rgba(255, 255, 255, .7);
+}
